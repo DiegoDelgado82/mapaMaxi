@@ -63,11 +63,5 @@ function addMarker(markerData) {
         icon: icons[markerData.type]
     });
 
-    const infoWindow = new google.maps.InfoWindow({
-        content: `<h5>${markerData.name}</h5><p>${markerData.address}</p>`
-    });
-
-    marker.addListener('click', function() {
-        infoWindow.open(map, marker);
-    });
+   
 }
