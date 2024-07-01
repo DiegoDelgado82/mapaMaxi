@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Digital tiendas Carrefour</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .icon-container {
+        display: flex;
+        align-items: center;
+    }
+    .icon-container img {
+        width: 50px; /* Ajusta el tamaño según sea necesario */
+        height: auto;
+        margin-right: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h4 class="text-center mt-4">PLANO DIGITAL CARTELERÍA INGRESO </h4>
+        <h4 class="text-center ">Carrefour Maxi Cacheuta</h4>
+        <h4 class="text-center mb-4"> </h4>
+        <div id="map" class="mb-4"></div>
+        <div class="mb-4 d-flex container d-flex ">
+            <div class="icon-container mr-2">
+                <img class= "w-50" src="./icons/semaforo.png" alt="express">
+                <h5 class="mb-0">Semaforo</h5>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="icon-container mr-2">
+                <img src="./icons/cartel.png" alt="market">
+                <h5 class="mb-0">Cartel Ingreso</h5>
+            </div>
+          
+        </div>
+
+        
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm2c1iic-iK25EB6-C26MJFgSmtjc-R-0&callback=initMap"></script>
+</body>
+</html>
+
+
