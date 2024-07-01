@@ -7,9 +7,9 @@ function initMap() {
 
 
     const mapOptions = {
-       
-        center: { lat: -31.460776278402353, lng: -64.21608706090672 }, // Coordenadas de Córdoba capital
-        zoom: 18,
+        
+        center: { lat: -31.462259639738043, lng: -64.21609408094824 }, // Coordenadas de Córdoba capital
+        zoom: 17,
         disableDefaultUI: true, 
         mapTypeId: google.maps.MapTypeId.HYBRID, 
         styles

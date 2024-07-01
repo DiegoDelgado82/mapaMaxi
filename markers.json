@@ -3,8 +3,8 @@
         {"name":"504 - Maxi Cacheuta","lat":-31.4608,"lng":-64.2151,"address":"Cacheuta 4509","type":"maxi"},
         {"name":"SEMAFORO","lat":-31.46055310550274,"lng":-64.21680429715168,"address":"","type":"semaforo"},  
         {"name":"CARTEL","lat":-31.46089171245206,"lng":-64.21677723163302,"address":"","type":"cartel"},
-        {"name":"CARTEL","lat":-31.460360714645155,"lng":-64.216470489088,"address":"","type":"cartel"} 
-        
-
+        {"name":"CARTEL","lat":-31.460360714645155,"lng":-64.216470489088,"address":"","type":"cartel"} ,
+        {"name":"CARTEL","lat":-31.464117381256482,"lng": -64.21742445657057,"address":"","type":"cartel"} 
+       
            
 ]
